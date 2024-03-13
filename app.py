@@ -1,11 +1,10 @@
 from flask import Flask #flask é uma biblioteca e Flask e uma classe
 
-app = Flask
+app = Flask ("Olá")
 
-@app.route('/')
+@app.route("/")
 
-#Função que realiza ações
 def ola():
-    return 'Olá, mundo!'
+    return "Olá, mundo!"
 
 
