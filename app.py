@@ -4,5 +4,8 @@ app = Flask
 
 @app.route('/')
 
+#Função que realiza ações
+def ola():
+    return 'Olá, mundo!'
 
 
